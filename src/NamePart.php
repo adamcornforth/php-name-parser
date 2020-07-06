@@ -6,6 +6,10 @@ namespace AdamCornforth\PhpNameParser;
 
 use http\Exception\RuntimeException;
 
+/**
+ * Abstract class that defines how each part of the name string
+ * must be parsed, and whether each part is mandatory or not.
+ */
 abstract class NamePart
 {
     protected int $position;
